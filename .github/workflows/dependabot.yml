@@ -1,9 +1,1 @@
-version: 2
-updates:
-  - package-ecosystem: "docker", "github-actions" # or "pip", "maven", "docker", etc.
-    directory: "/" # location of your manifest file
-    schedule:
-      interval: "weekly" # or "daily", "monthly"
-    open-pull-requests-limit: 5
-    commit-message:
-      prefix: "chore"
+
