@@ -1,0 +1,18 @@
+http:
+  routers:
+    sabnzbd-rtr:
+      rule: "Host(`sabnzbd.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: sabnzbd-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    sabnzbd-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:8083" # http://IP-ADDRESS:PORT

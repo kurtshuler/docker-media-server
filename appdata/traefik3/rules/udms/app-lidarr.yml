@@ -1,0 +1,18 @@
+http:
+  routers:
+    lidarr-rtr:
+      rule: "Host(`lidarr.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: lidarr-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    lidarr-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:8686" # http://IP-ADDRESS:PORT

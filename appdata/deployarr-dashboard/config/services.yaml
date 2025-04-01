@@ -1,0 +1,516 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Main Apps (Local):
+    # DEPLOYARR-DASHBOARD-START-PLACEHOLDER
+    # - Deployarr Dashboard:
+    #     href: http://192.168.0.111:3050
+    #     description: http://192.168.0.111:3050
+    #     icon: homepage
+    #     server: udms-Docker
+    #     container: deployarr-dashboard
+    #     showStats: false
+    # DEPLOYARR-DASHBOARD-END-PLACEHOLDER
+    # PLEX-START-PLACEHOLDER
+    - Plex:
+        href: http://192.168.0.111:32400
+        description: http://192.168.0.111:32400
+        icon: plex
+        server: udms-Docker
+        container: plex
+        showStats: false
+    # PLEX-END-PLACEHOLDER
+    # SONARR-START-PLACEHOLDER
+    - Sonarr:
+        href: http://192.168.0.111:8989
+        description: http://192.168.0.111:8989
+        icon: sonarr
+        server: udms-Docker
+        container: sonarr
+        showStats: false
+    # SONARR-END-PLACEHOLDER
+    # RADARR-START-PLACEHOLDER
+    - Radarr:
+        href: http://192.168.0.111:7878
+        description: http://192.168.0.111:7878
+        icon: radarr
+        server: udms-Docker
+        container: radarr
+        showStats: false
+    # RADARR-END-PLACEHOLDER
+    # LIDARR-START-PLACEHOLDER
+    - Lidarr:
+        href: http://192.168.0.111:8686
+        description: http://192.168.0.111:8686
+        icon: lidarr
+        server: udms-Docker
+        container: lidarr
+        showStats: false
+    # LIDARR-END-PLACEHOLDER
+    # READARR-START-PLACEHOLDER
+    - Readarr:
+        href: http://192.168.0.111:8787
+        description: http://192.168.0.111:8787
+        icon: readarr
+        server: udms-Docker
+        container: readarr
+        showStats: false
+    # READARR-END-PLACEHOLDER
+- Support Apps (Local):
+    # DDNS-UPDATER-START-PLACEHOLDER
+    - DDNS Updater:
+        href: http://192.168.0.111:8000
+        description: http://192.168.0.111:8000
+        icon: ddns-updater
+        server: udms-Docker
+        container: ddns-updater
+        showStats: false
+    # DDNS-UPDATER-END-PLACEHOLDER
+    # QBITTORRENT-START-PLACEHOLDER
+    - qBittorrent:
+        href: http://192.168.0.111:8081
+        description: http://192.168.0.111:8081
+        icon: qbittorrent
+        server: udms-Docker
+        container: qbittorrent
+        showStats: false
+    # QBITTORRENT-END-PLACEHOLDER
+    # PORTAINER-START-PLACEHOLDER
+    - Portainer:
+        href: http://192.168.0.111:9000
+        description: http://192.168.0.111:9000
+        icon: portainer
+        server: udms-Docker
+        container: portainer
+        showStats: false
+    # PORTAINER-END-PLACEHOLDER
+    # GLANCES-START-PLACEHOLDER
+    - Glances:
+        href: http://192.168.0.111:61208
+        description: http://192.168.0.111:61208
+        icon: glances
+        server: udms-Docker
+        container: glances
+        showStats: false
+    # GLANCES-END-PLACEHOLDER
+    # DOZZLE-START-PLACEHOLDER
+    - Dozzle:
+        href: http://192.168.0.111:8082
+        description: http://192.168.0.111:8082
+        icon: dozzle
+        server: udms-Docker
+        container: dozzle
+        showStats: false
+    # DOZZLE-END-PLACEHOLDER
+    # PROWLARR-START-PLACEHOLDER
+    - Prowlarr:
+        href: http://192.168.0.111:9696
+        description: http://192.168.0.111:9696
+        icon: prowlarr
+        server: udms-Docker
+        container: prowlarr
+        showStats: false
+    # PROWLARR-END-PLACEHOLDER
+    # SABNZBD-START-PLACEHOLDER
+    - SABnzbd:
+        href: http://192.168.0.111:8083
+        description: http://192.168.0.111:8083
+        icon: sabnzbd
+        server: udms-Docker
+        container: sabnzbd
+        showStats: false
+    # SABNZBD-END-PLACEHOLDER
+    # ADMINER-START-PLACEHOLDER
+    - Adminer:
+        href: http://192.168.0.111:8084
+        description: http://192.168.0.111:8084
+        icon: adminer
+        server: udms-Docker
+        container: adminer
+        showStats: false
+    # ADMINER-END-PLACEHOLDER
+    # WUD-START-PLACEHOLDER
+    - What's Up Docker:
+        href: http://192.168.0.111:3001
+        description: http://192.168.0.111:3001
+        icon: whats-up-docker
+        server: udms-Docker
+        container: wud
+        showStats: false
+    # WUD-END-PLACEHOLDER
+    # PAPERLESS-NGX-START-PLACEHOLDER
+    - Paperless-NGX:
+        href: http://192.168.0.111:8001
+        description: http://192.168.0.111:8001
+        icon: sh-paperless-ngx
+        server: udms-Docker
+        container: paperless-ngx
+        showStats: false
+    # PAPERLESS-NGX-END-PLACEHOLDER
+    # PAPERLESS-AI-START-PLACEHOLDER
+    - Paperless-AI:
+        href: http://192.168.0.111:3002
+        description: http://192.168.0.111:3002
+        icon: sh-paperless-ai
+        server: udms-Docker
+        container: paperless-ai
+        showStats: false
+    # PAPERLESS-AI-END-PLACEHOLDER
+    # UPTIME-KUMA-START-PLACEHOLDER
+    - Uptime-Kuma:
+        href: http://192.168.0.111:3003
+        description: http://192.168.0.111:3003
+        icon: sh-uptime-kuma
+        server: udms-Docker
+        container: uptime-kuma
+        showStats: false
+    # UPTIME-KUMA-END-PLACEHOLDER
+# WEB-APPS-LOCAL-PLACEHOLDER
+
+- Apps (Remote):
+    # PLEX-START-PLACEHOLDER
+    - plex:
+        href: https://plex.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://plex.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: plex
+        server: udms-Docker
+        container: plex
+        showStats: false
+    # PLEX-END-PLACEHOLDER
+    # SONARR-START-PLACEHOLDER
+    - sonarr:
+        href: https://sonarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://sonarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sonarr
+        server: udms-Docker
+        container: sonarr
+        showStats: false
+    # SONARR-END-PLACEHOLDER
+    # RADARR-START-PLACEHOLDER
+    - radarr:
+        href: https://radarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://radarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: radarr
+        server: udms-Docker
+        container: radarr
+        showStats: false
+    # RADARR-END-PLACEHOLDER
+    # LIDARR-START-PLACEHOLDER
+    - lidarr:
+        href: https://lidarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://lidarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: lidarr
+        server: udms-Docker
+        container: lidarr
+        showStats: false
+    # LIDARR-END-PLACEHOLDER
+    # READARR-START-PLACEHOLDER
+    - readarr:
+        href: https://readarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://readarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: readarr
+        server: udms-Docker
+        container: readarr
+        showStats: false
+    # READARR-END-PLACEHOLDER
+- Support Apps (Remote):
+    # DDNS-UPDATER-START-PLACEHOLDER
+    - ddns-updater:
+        href: https://ddnsupdater.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://ddnsupdater.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: ddns-updater
+        server: udms-Docker
+        container: ddns-updater
+        showStats: false
+    # DDNS-UPDATER-END-PLACEHOLDER
+    # QBITTORRENT-START-PLACEHOLDER
+    - qbittorrent:
+        href: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: qbittorrent
+        server: udms-Docker
+        container: qbittorrent
+        showStats: false
+    # QBITTORRENT-END-PLACEHOLDER
+    # PORTAINER-START-PLACEHOLDER
+    - portainer:
+        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: portainer
+        server: udms-Docker
+        container: portainer
+        showStats: false
+    # PORTAINER-END-PLACEHOLDER
+    # GLANCES-START-PLACEHOLDER
+    - glances:
+        href: https://glances.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://glances.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: glances
+        server: udms-Docker
+        container: glances
+        showStats: false
+    # GLANCES-END-PLACEHOLDER
+    # DOZZLE-START-PLACEHOLDER
+    - dozzle:
+        href: https://dozzle.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://dozzle.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: dozzle
+        server: udms-Docker
+        container: dozzle
+        showStats: false
+    # DOZZLE-END-PLACEHOLDER
+    # PROWLARR-START-PLACEHOLDER
+    - prowlarr:
+        href: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: prowlarr
+        server: udms-Docker
+        container: prowlarr
+        showStats: false
+    # PROWLARR-END-PLACEHOLDER
+    # SABNZBD-START-PLACEHOLDER
+    - sabnzbd:
+        href: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sabnzbd
+        server: udms-Docker
+        container: sabnzbd
+        showStats: false
+    # SABNZBD-END-PLACEHOLDER
+    # ADMINER-START-PLACEHOLDER
+    - adminer:
+        href: https://adminer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://adminer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: adminer
+        server: udms-Docker
+        container: adminer
+        showStats: false
+    # ADMINER-END-PLACEHOLDER
+    # WUD-START-PLACEHOLDER
+    - wud:
+        href: https://wud.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://wud.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: whats-up-docker
+        server: udms-Docker
+        container: wud
+        showStats: false
+    # WUD-END-PLACEHOLDER
+    # PAPERLESS-NGX-START-PLACEHOLDER
+    - Paperless-NGX:
+        href: https://paperless.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://paperless.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sh-paperless-ngx
+        server: udms-Docker
+        container: paperless-ngx
+        showStats: false
+    # PAPERLESS-NGX-END-PLACEHOLDER
+    # PAPERLESS-AI-START-PLACEHOLDER
+    - Paperless-AI:
+        href: https://paperlessai.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://paperlessai.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sh-paperless-ai
+        server: udms-Docker
+        container: paperless-ai
+        showStats: false
+    # PAPERLESS-AI-END-PLACEHOLDER
+    # UPTIME-KUMA-START-PLACEHOLDER
+    - Uptime-Kuma:
+        href: https://uptimekuma.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://uptimekuma.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sh-uptime-kuma
+        server: udms-Docker
+        container: uptime-kuma
+        showStats: false
+    # UPTIME-KUMA-END-PLACEHOLDER
+# WEB-APPS-REMOTE-PLACEHOLDER
+
+- Core & Non-Web Apps:
+    # SOCKET-PROXY-START-PLACEHOLDER
+    - Socket-Proxy:
+        description: Proxy for Docker Socket
+        icon: docker.png
+        server: udms-Docker
+        container: socket-proxy
+        showStats: false
+    # SOCKET-PROXY-END-PLACEHOLDER
+    # TRAEFIK-START-PLACEHOLDER
+    - Traefik:
+        href: https://traefik.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://traefik.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: traefik
+        server: udms-Docker
+        container: traefik
+        showStats: false
+    # TRAEFIK-END-PLACEHOLDER
+    # AUTHELIA-START-PLACEHOLDER
+    - Authelia:
+        href: https://authelia.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://authelia.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: authelia
+        server: udms-Docker
+        container: authelia
+        showStats: false
+    # AUTHELIA-END-PLACEHOLDER
+    # GLUETUN-START-PLACEHOLDER
+    - Gluetun:
+        description: VPN Client and Killswitch
+        icon: gluetun
+        server: udms-Docker
+        container: gluetun
+        showStats: false
+    # GLUETUN-END-PLACEHOLDER
+    # DEUNHEALTH-START-PLACEHOLDER
+    - DeUnhealth:
+        description: Restart UnHealthy Containers
+        icon: docker
+        server: udms-Docker
+        container: deunhealth
+        showStats: false
+    # DEUNHEALTH-END-PLACEHOLDER
+    # TRAEFIK-ACCESS-LOG-START-PLACEHOLDER
+    - Traefik Access Log for Dozzle:
+        description: Traefik Access Log for Dozzle
+        icon: traefik-proxy
+        server: udms-Docker
+        container: traefik-access-log
+        showStats: false
+    # TRAEFIK-ACCESS-LOG-END-PLACEHOLDER
+    # TRAEFIK-ERROR-LOG-START-PLACEHOLDER
+    - Traefik Error Log for Dozzle:
+        description: Traefik Error Log for Dozzle
+        icon: traefik-proxy
+        server: udms-Docker
+        container: traefik-error-log
+        showStats: false
+    # TRAEFIK-ERROR-LOG-END-PLACEHOLDER
+    # FLARESOLVERR-START-PLACEHOLDER
+    - Flaresolverr:
+        description: 
+        icon: sh-flaresolverr
+        server: udms-Docker
+        container: flaresolverr
+        showStats: false
+    # FLARESOLVERR-END-PLACEHOLDER
+    # MARIADB-START-PLACEHOLDER
+    - MariaDB:
+        description: 
+        icon: sh-mariadb
+        server: udms-Docker
+        container: mariadb
+        showStats: false
+    # MARIADB-END-PLACEHOLDER
+    # GOTENBERG-START-PLACEHOLDER
+    - Gotenberg:
+        description: 
+        icon: sh-docker
+        server: udms-Docker
+        container: gotenberg
+        showStats: false
+    # GOTENBERG-END-PLACEHOLDER
+    # TIKA-START-PLACEHOLDER
+    - Tika:
+        description: 
+        icon: sh-docker
+        server: udms-Docker
+        container: tika
+        showStats: false
+    # TIKA-END-PLACEHOLDER
+    # REDIS-START-PLACEHOLDER
+    - Redis:
+        description: 
+        icon: sh-redis
+        server: udms-Docker
+        container: redis
+        showStats: false
+    # REDIS-END-PLACEHOLDER
+    # DOCKER-GC-START-PLACEHOLDER
+    - Docker Garbage Collection:
+        description: 
+        icon: sh-docker
+        server: udms-Docker
+        container: docker-gc
+        showStats: false
+    # DOCKER-GC-END-PLACEHOLDER
+# CORE-APPS-PLACEHOLDER
+
+- System & Servers:
+    # WAN-IP-START-PLACEHOLDER   
+    - WAN IP:
+        icon: bewcloud.png
+        siteMonitor: https://api.ipify.org?format=json
+        statusStyle: "dot"
+        widget:
+          type: customapi
+          url: https://api.ipify.org?format=json
+          refreshInterval: 100000 # optional - in milliseconds, defaults to 10s
+          method: GET
+          mappings:
+            - field: 'ip'
+              format: text
+    # WAN-IP-END-PLACEHOLDER   
+    # PVE10-START-PLACEHOLDER
+    - pve10 Proxmox (iKoolCore R2) server:
+        icon: proxmox-light.png
+        href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        # href: https://pve10."{{"DOMAINNAME_1"}}""
+        description: On iKoolCore R2 server. Runs UDMS media server docker apps.
+        siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        statusStyle: "dot"
+        widget:
+          type: proxmox
+          url: https://192.168.0.110:8006
+          username: api@pam!homepage # api_token_id
+          password: "{{HOMEPAGE_VAR_PROXMOX_PVE10_API_TOKEN}}" # variable defined in deployarr-dashboard.yml docker compose file
+          # node: pve10 # optional
+    # PVE10-END-PLACEHOLDER
+    # PVE10-PORTAINER-START-PLACEHOLDER
+    - pve10 Docker container status Portainer:    
+        icon: docker.png
+        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
+        description: Status of pve10 UDMS Docker containers
+        siteMonitor: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
+        statusStyle: "dot"
+        widget:
+          type: portainer
+          url: http://portainer:9000 # use Docker service name and port
+          env: 1
+          #key: ptr_xxxx # click on Portainer my account in the top right. Scroll down to the Access tokens section
+          key: "{{HOMEPAGE_VAR_PORTAINER_ACCESS_TOKEN}}"   # click on my account in the top right. Scroll down to the Access tokens section
+    # PVE10-PORTAINER-END-PLACEHOLDER 
+    # PVE20-START-PLACEHOLDER
+    - pve20 Proxmox (Beelink S12 Pro) server:
+        icon: proxmox-light.png
+        href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: On Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
+        siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        statusStyle: "dot"
+        widget:
+          type: proxmox
+          url: https://192.168.0.120:8006
+          username: api@pam!homepage # api_token_id
+          password: "{{HOMEPAGE_VAR_PROXMOX_PVE20_API_TOKEN}}" # variable defined in deployarr-dashboard.yml docker compose file
+          # node: pve20 # optional
+    # PVE20-END-PLACEHOLDER
+    # PBS-START-PLACEHOLDER
+    - Proxmox Backup Server (PBS):
+        icon: proxmox.png
+        href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: PBS running on Synology NAS
+        siteMonitor: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
+        statusStyle: "dot"
+        widget:
+          type: proxmoxbackupserver
+          url: https://192.168.0.130:8007
+          username: api@pbs!homepage # api_token_id
+          password: "{{HOMEPAGE_VAR_PROXMOX_PBS_API_TOKEN}}" # variable defined in deployarr-dashboard.yml docker compose file
+          # node: pve20 # optional
+    # PBS-END-PLACEHOLDER
+    # NUT-SERVER-START-PLACEHOLDER
+    - UPS:
+        icon: raspberry-pi-light # mdi-power-plug-battery
+        href: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
+        description: Status of NUT UPS server running on Raspberry Pi 3B
+        siteMonitor: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
+        statusStyle: "dot"
+    # NUT-SERVER-END-PLACEHOLDER  

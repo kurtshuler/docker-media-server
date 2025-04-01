@@ -1,0 +1,18 @@
+http:
+  routers:
+    paperless-ai-rtr:
+      rule: "Host(`paperlessai.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: paperless-ai-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    paperless-ai-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:3002" # http://IP-ADDRESS:PORT

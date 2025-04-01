@@ -1,0 +1,18 @@
+http:
+  routers:
+    uptime-kuma-rtr:
+      rule: "Host(`uptimekuma.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: uptime-kuma-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    uptime-kuma-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:3003" # http://IP-ADDRESS:PORT

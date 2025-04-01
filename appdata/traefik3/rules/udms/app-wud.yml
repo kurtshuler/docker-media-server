@@ -1,0 +1,18 @@
+http:
+  routers:
+    wud-rtr:
+      rule: "Host(`wud.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: wud-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    wud-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:3001" # http://IP-ADDRESS:PORT

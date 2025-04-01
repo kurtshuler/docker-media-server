@@ -1,0 +1,18 @@
+http:
+  routers:
+    portainer-rtr:
+      rule: "Host(`portainer.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: portainer-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    portainer-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:9000" # http://IP-ADDRESS:PORT

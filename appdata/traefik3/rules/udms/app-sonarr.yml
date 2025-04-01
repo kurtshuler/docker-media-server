@@ -1,0 +1,18 @@
+http:
+  routers:
+    sonarr-rtr:
+      rule: "Host(`sonarr.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: sonarr-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    sonarr-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:8989" # http://IP-ADDRESS:PORT

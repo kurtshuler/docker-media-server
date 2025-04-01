@@ -1,0 +1,90 @@
+########################### NETWORKS
+# You may customize the network subnets (192.168.x.0/24) below as you please.
+networks:
+  default:
+    driver: bridge
+  socket_proxy:
+    name: socket_proxy
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.91.0/24
+  t3_proxy:
+    name: t3_proxy
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.90.0/24
+  # NETWORKS-PLACEHOLDER-DO-NOT-DELETE
+  
+########################### SECRETS
+secrets:
+  basic_auth_credentials:
+    file: $DOCKERDIR/secrets/basic_auth_credentials
+  cf_dns_api_token:
+    file: $DOCKERDIR/secrets/cf_dns_api_token
+  cf_token:
+    file: $DOCKERDIR/secrets/cf_dns_api_token
+  authelia_jwt_secret:
+    file: $DOCKERDIR/secrets/authelia_jwt_secret
+  authelia_session_secret:
+    file: $DOCKERDIR/secrets/authelia_session_secret
+  authelia_storage_encryption_key:
+    file: $DOCKERDIR/secrets/authelia_storage_encryption_key
+  plex_claim:
+    file: $DOCKERDIR/secrets/plex_claim
+  postgres_default_passwd:
+    file: $DOCKERDIR/secrets/postgres_default_passwd
+  mariadb_root_password:
+    file: $DOCKERDIR/secrets/mariadb_root_password
+  paperlessngx_admin_username:
+    file: $DOCKERDIR/secrets/paperlessngx_admin_username
+  paperlessngx_admin_password:
+    file: $DOCKERDIR/secrets/paperlessngx_admin_password
+  paperlessngx_secret_key:
+    file: $DOCKERDIR/secrets/paperlessngx_secret_key
+  paperlessngx_mariadb_username:
+    file: $DOCKERDIR/secrets/paperlessngx_mariadb_username
+  paperlessngx_mariadb_password:
+    file: $DOCKERDIR/secrets/paperlessngx_mariadb_password
+  # SECRETS-PLACEHOLDER-DO-NOT-DELETE
+                        
+include:
+  ########################### SERVICES
+  # HOSTNAME defined in .env file
+
+  # - compose/$HOSTNAME/custom.yml
+  - compose/$HOSTNAME/socket-proxy.yml
+  - compose/$HOSTNAME/deployarr-dashboard.yml
+  - compose/$HOSTNAME/traefik.yml
+  - compose/$HOSTNAME/authelia.yml
+  - compose/$HOSTNAME/ddns-updater.yml
+  - compose/$HOSTNAME/cloudflare-companion.yml
+  - compose/$HOSTNAME/gluetun.yml
+  - compose/$HOSTNAME/deunhealth.yml
+  - compose/$HOSTNAME/qbittorrent.yml
+  - compose/$HOSTNAME/portainer.yml
+  - compose/$HOSTNAME/glances.yml
+  - compose/$HOSTNAME/dozzle.yml
+  - compose/$HOSTNAME/prowlarr.yml
+  - compose/$HOSTNAME/sabnzbd.yml
+  - compose/$HOSTNAME/sonarr.yml
+  - compose/$HOSTNAME/radarr.yml
+  - compose/$HOSTNAME/lidarr.yml
+  - compose/$HOSTNAME/readarr.yml
+  - compose/$HOSTNAME/plex.yml
+  - compose/$HOSTNAME/notifiarr.yml
+  - compose/$HOSTNAME/adminer.yml
+  - compose/$HOSTNAME/traefik-access-log.yml
+  - compose/$HOSTNAME/traefik-error-log.yml
+  - compose/$HOSTNAME/wud.yml
+  - compose/$HOSTNAME/flaresolverr.yml
+  - compose/$HOSTNAME/mariadb.yml
+  - compose/$HOSTNAME/gotenberg.yml
+  - compose/$HOSTNAME/tika.yml
+  - compose/$HOSTNAME/redis.yml
+  - compose/$HOSTNAME/paperless-ngx.yml
+  - compose/$HOSTNAME/paperless-ai.yml
+  - compose/$HOSTNAME/uptime-kuma.yml
+  - compose/$HOSTNAME/docker-gc.yml
+  # SERVICE-PLACEHOLDER-DO-NOT-DELETE

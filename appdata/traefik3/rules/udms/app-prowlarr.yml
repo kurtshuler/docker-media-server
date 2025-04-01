@@ -1,0 +1,18 @@
+http:
+  routers:
+    prowlarr-rtr:
+      rule: "Host(`prowlarr.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: prowlarr-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    prowlarr-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:9696" # http://IP-ADDRESS:PORT
