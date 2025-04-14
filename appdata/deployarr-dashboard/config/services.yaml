@@ -166,6 +166,13 @@
         container: uptime-kuma
         showStats: false
     # UPTIME-KUMA-END-PLACEHOLDER
+    # SHELLINABOX-START-PLACEHOLDER
+    - ShellInABox:
+        href: http://192.168.0.111:4200
+        description: http://192.168.0.111:4200
+        icon: shell
+        showStats: false
+    # SHELLINABOX-END-PLACEHOLDER
 # WEB-APPS-LOCAL-PLACEHOLDER
 
 - Apps (Remote):
@@ -323,6 +330,13 @@
         container: uptime-kuma
         showStats: false
     # UPTIME-KUMA-END-PLACEHOLDER
+    # SHELLINABOX-START-PLACEHOLDER
+    - ShellInABox:
+        href: https://shell.kurtshuler.net
+        description: https://shell.kurtshuler.net
+        icon: shell
+        showStats: false
+    # SHELLINABOX-END-PLACEHOLDER
 # WEB-APPS-REMOTE-PLACEHOLDER
 
 - Core & Non-Web Apps:
