@@ -1,0 +1,30 @@
+services:
+  # Deployarr Dashboard - Homepage based Dashboard for Deployarr
+  deployrr-dashboard:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: deployrr-dashboard
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+    profiles: ["apps", "all"]
+    networks:
+      - default
+      # - t3_proxy
+      - socket_proxy
+    ports:
+     - "$DEPLOYARRDASHBOARD_PORT:3000" 
+    volumes:
+      - $DOCKERDIR/appdata/deployrr-dashboard/config:/app/config
+      - $DOCKERDIR/appdata/deployrr-dashboard/images:/app/public/images
+      - /mnt/nas:/data #this is my mounted data nfs share on Synology DS418play NAS
+    environment:
+      TZ: $TZ
+      PUID: $PUID
+      PGID: $PGID
+      HOMEPAGE_ALLOWED_HOSTS: dashboard.$DOMAINNAME_1
+      HOMEPAGE_VAR_DOMAINNAME_1: $DOMAINNAME_1
+      HOMEPAGE_VAR_PROXMOX_PVE10_API_TOKEN: $HOMEPAGE_VAR_PROXMOX_PVE10_API_TOKEN
+      HOMEPAGE_VAR_PROXMOX_PVE20_API_TOKEN: $HOMEPAGE_VAR_PROXMOX_PVE20_API_TOKEN
+      HOMEPAGE_VAR_PROXMOX_PBS_API_TOKEN: $HOMEPAGE_VAR_PROXMOX_PBS_API_TOKEN
+      HOMEPAGE_VAR_PORTAINER_ACCESS_TOKEN: $HOMEPAGE_VAR_PORTAINER_ACCESS_TOKEN
+    # DOCKER-LABELS-PLACEHOLDER
