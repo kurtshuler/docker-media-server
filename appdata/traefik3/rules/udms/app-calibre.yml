@@ -1,0 +1,18 @@
+http:
+  routers:
+    calibre-rtr:
+      rule: "Host(`calibre.{{env "DOMAINNAME_1"}}`)" 
+      entryPoints:
+        - websecure-external
+        - websecure-internal
+      middlewares:
+        - chain-authelia
+      service: calibre-svc
+      tls:
+        certResolver: dns-cloudflare
+        options: tls-opts@file
+  services:
+    calibre-svc:
+      loadBalancer:
+        servers:
+          - url: "http://192.168.0.111:8096" # http://IP-ADDRESS:PORT

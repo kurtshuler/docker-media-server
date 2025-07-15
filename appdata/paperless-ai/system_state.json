@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "indexing_status": {
+    "running": false,
+    "last_indexed": null,
+    "documents_count": 0,
+    "up_to_date": false,
+    "message": ""
+  },
+  "system_status": {
+    "data_loaded": false,
+    "index_ready": false,
+    "chroma_ready": false,
+    "bm25_ready": false
+  },
+  "indexed_document_ids": []
+}

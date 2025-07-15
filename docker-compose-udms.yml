@@ -55,7 +55,7 @@ include:
 
   # - compose/$HOSTNAME/custom.yml
   - compose/$HOSTNAME/socket-proxy.yml
-  - compose/$HOSTNAME/deployarr-dashboard.yml
+  - compose/$HOSTNAME/deployrr-dashboard.yml
   - compose/$HOSTNAME/traefik.yml
   - compose/$HOSTNAME/authelia.yml
   - compose/$HOSTNAME/ddns-updater.yml
@@ -72,6 +72,8 @@ include:
   - compose/$HOSTNAME/radarr.yml
   - compose/$HOSTNAME/lidarr.yml
   - compose/$HOSTNAME/readarr.yml
+  - compose/$HOSTNAME/calibre-web-automated.yml
+  - compose/$HOSTNAME/calibre-web-automated-book-downloader.yml
   - compose/$HOSTNAME/plex.yml
   - compose/$HOSTNAME/notifiarr.yml
   - compose/$HOSTNAME/adminer.yml

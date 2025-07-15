@@ -1,0 +1,25 @@
+services:
+  calibre-web-automated-book-downloader:
+    image: ghcr.io/calibrain/calibre-web-automated-book-downloader:latest
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+    profiles: ["media", "apps", "all"]
+    environment:
+      TZ: $TZ
+      PUID: $PUID
+      PGID: $PGID
+      FLASK_PORT: 8084
+      LOG_LEVEL: info
+      BOOK_LANGUAGE: en
+      USE_BOOK_TITLE: true
+      APP_ENV: prod
+    volumes:
+    # This is where the books will be downloaded to, usually it would be 
+    # the same as whatever you gave in "calibre-web-automated"
+      - $BOOKSDIR/ingest:/cwa-book-ingest
+    ports:
+      # Change the first number to change the port you want to access the Web UI, not the second
+      - 8097:8084
+
+
