@@ -1,0 +1,24 @@
+services:
+  # Calibre Web Automated - eBooks Management and Viewing
+  calibre-web-automated:
+    image: crocodilestick/calibre-web-automated:latest
+    container_name: calibre-web-automated
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+    profiles: ["media", "apps", "all"]
+    environment:
+      TZ: $TZ
+      PUID: $PUID
+      PGID: $PGID
+    volumes:
+      # CW users migrating should stop their existing CW instance, make a copy of the config folder, and bind that here to carry over all of their user settings ect.
+      - $DOCKERDIR/appdata/calibre-web-automated:/config 
+      # This is an ingest dir, NOT a library one. Anything added here will be automatically added to your library according to the settings you have configured in CWA Settings page. All files placed here are REMOVED AFTER PROCESSING
+      - $BOOKSDIR/ingest:/cwa-book-ingest
+      # If you don't have an existing library, CWA will automatically create one at the bind provided here
+      - $BOOKSDIR/calibre-library:/calibre-library 
+    ports:
+      # Change the first number to change the port you want to access the Web UI, not the second
+      - 8096:8083
+
