@@ -1,0 +1,746 @@
+(N) 2025-08-21T03:25:24 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:25:24 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:25:24 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:45:47 - qBittorrent termination initiated
+(N) 2025-08-21T03:45:47 - Saving resume data completed.
+(N) 2025-08-21T03:45:49 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:45:49 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:45:52 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:45:52 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:45:52 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:45:52 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:45:52 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:45:52 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:45:52 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:45:52 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:45:52 - Anonymous mode: OFF
+(I) 2025-08-21T03:45:52 - Encryption support: ON
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:45:52 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:45:52 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:45:52 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:45:52 - Using built-in WebUI.
+(N) 2025-08-21T03:45:52 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:45:52 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:45:53 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:47:02 - qBittorrent termination initiated
+(N) 2025-08-21T03:47:02 - Saving resume data completed.
+(N) 2025-08-21T03:47:04 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:47:04 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:47:08 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:47:08 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:47:08 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:47:08 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:47:08 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:47:08 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:47:08 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:47:08 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:47:08 - Anonymous mode: OFF
+(I) 2025-08-21T03:47:08 - Encryption support: ON
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:47:08 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:47:08 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:47:08 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:47:08 - Using built-in WebUI.
+(N) 2025-08-21T03:47:08 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:47:08 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:47:08 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:48:18 - qBittorrent termination initiated
+(N) 2025-08-21T03:48:18 - Saving resume data completed.
+(N) 2025-08-21T03:48:20 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:48:20 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:48:23 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:48:23 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:48:23 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:48:23 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:48:23 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:48:23 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:48:23 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:48:23 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:48:23 - Anonymous mode: OFF
+(I) 2025-08-21T03:48:23 - Encryption support: ON
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:48:23 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:48:23 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:48:23 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:48:23 - Using built-in WebUI.
+(N) 2025-08-21T03:48:23 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:48:23 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:48:23 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:49:33 - qBittorrent termination initiated
+(N) 2025-08-21T03:49:33 - Saving resume data completed.
+(N) 2025-08-21T03:49:35 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:49:35 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:49:38 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:49:38 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:49:38 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:49:38 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:49:38 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:49:38 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:49:38 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:49:38 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:49:38 - Anonymous mode: OFF
+(I) 2025-08-21T03:49:38 - Encryption support: ON
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:49:38 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:49:38 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:49:38 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:49:38 - Using built-in WebUI.
+(N) 2025-08-21T03:49:38 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:49:38 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:49:38 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:56:53 - qBittorrent termination initiated
+(N) 2025-08-21T03:56:53 - Saving resume data completed.
+(N) 2025-08-21T03:56:55 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:56:55 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:56:59 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:56:59 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:56:59 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:56:59 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:56:59 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:56:59 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:56:59 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:56:59 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:56:59 - Anonymous mode: OFF
+(I) 2025-08-21T03:56:59 - Encryption support: ON
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:56:59 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:56:59 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:56:59 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:56:59 - Using built-in WebUI.
+(N) 2025-08-21T03:56:59 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:56:59 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:56:59 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:58:08 - qBittorrent termination initiated
+(N) 2025-08-21T03:58:08 - Saving resume data completed.
+(N) 2025-08-21T03:58:10 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:58:10 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:58:14 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:58:14 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:58:14 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:58:14 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:58:14 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:58:14 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:58:14 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:58:14 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:58:14 - Anonymous mode: OFF
+(I) 2025-08-21T03:58:14 - Encryption support: ON
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:58:14 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:58:14 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:58:14 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:58:14 - Using built-in WebUI.
+(N) 2025-08-21T03:58:14 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:58:14 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:58:14 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T03:59:24 - qBittorrent termination initiated
+(N) 2025-08-21T03:59:24 - Saving resume data completed.
+(N) 2025-08-21T03:59:26 - BitTorrent session successfully finished.
+(N) 2025-08-21T03:59:26 - qBittorrent is now ready to exit
+(N) 2025-08-21T03:59:29 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T03:59:29 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T03:59:29 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T03:59:29 - Peer ID: "-qB5120-"
+(I) 2025-08-21T03:59:29 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T03:59:29 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T03:59:29 - Local Peer Discovery support: ON
+(I) 2025-08-21T03:59:29 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T03:59:29 - Anonymous mode: OFF
+(I) 2025-08-21T03:59:29 - Encryption support: ON
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T03:59:29 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T03:59:29 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T03:59:29 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T03:59:29 - Using built-in WebUI.
+(N) 2025-08-21T03:59:29 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T03:59:29 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T03:59:29 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:00:39 - qBittorrent termination initiated
+(N) 2025-08-21T04:00:39 - Saving resume data completed.
+(N) 2025-08-21T04:00:41 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:00:41 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:00:44 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:00:44 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:00:44 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:00:44 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:00:44 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:00:44 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:00:44 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:00:44 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:00:44 - Anonymous mode: OFF
+(I) 2025-08-21T04:00:44 - Encryption support: ON
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:00:44 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:00:44 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:00:44 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:00:44 - Using built-in WebUI.
+(N) 2025-08-21T04:00:44 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:00:44 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:00:45 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:23:09 - qBittorrent termination initiated
+(N) 2025-08-21T04:23:09 - Saving resume data completed.
+(N) 2025-08-21T04:23:11 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:23:11 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:23:15 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:23:15 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:23:15 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:23:15 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:23:15 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:23:15 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:23:15 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:23:15 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:23:15 - Anonymous mode: OFF
+(I) 2025-08-21T04:23:15 - Encryption support: ON
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:23:15 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:23:15 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:23:15 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:23:15 - Using built-in WebUI.
+(N) 2025-08-21T04:23:15 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:23:15 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:23:15 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:24:25 - qBittorrent termination initiated
+(N) 2025-08-21T04:24:25 - Saving resume data completed.
+(N) 2025-08-21T04:24:27 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:24:27 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:24:30 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:24:30 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:24:30 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:24:30 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:24:30 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:24:30 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:24:30 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:24:30 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:24:30 - Anonymous mode: OFF
+(I) 2025-08-21T04:24:30 - Encryption support: ON
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:24:30 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:24:30 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:24:30 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:24:30 - Using built-in WebUI.
+(N) 2025-08-21T04:24:30 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:24:30 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:24:30 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:25:40 - qBittorrent termination initiated
+(N) 2025-08-21T04:25:40 - Saving resume data completed.
+(N) 2025-08-21T04:25:42 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:25:42 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:25:45 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:25:45 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:25:45 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:25:45 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:25:45 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:25:45 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:25:45 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:25:45 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:25:45 - Anonymous mode: OFF
+(I) 2025-08-21T04:25:45 - Encryption support: ON
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:25:45 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:25:45 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:25:45 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:25:45 - Using built-in WebUI.
+(N) 2025-08-21T04:25:45 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:25:45 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:25:45 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:26:55 - qBittorrent termination initiated
+(N) 2025-08-21T04:26:55 - Saving resume data completed.
+(N) 2025-08-21T04:26:57 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:26:57 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:27:01 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:27:01 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:27:01 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:27:01 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:27:01 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:27:01 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:27:01 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:27:01 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:27:01 - Anonymous mode: OFF
+(I) 2025-08-21T04:27:01 - Encryption support: ON
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:27:01 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:27:01 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:27:01 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:27:01 - Using built-in WebUI.
+(N) 2025-08-21T04:27:01 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:27:01 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:27:01 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:28:10 - qBittorrent termination initiated
+(N) 2025-08-21T04:28:10 - Saving resume data completed.
+(N) 2025-08-21T04:28:12 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:28:12 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:28:16 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:28:16 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:28:16 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:28:16 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:28:16 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:28:16 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:28:16 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:28:16 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:28:16 - Anonymous mode: OFF
+(I) 2025-08-21T04:28:16 - Encryption support: ON
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:28:16 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:28:16 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:28:16 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:28:16 - Using built-in WebUI.
+(N) 2025-08-21T04:28:16 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:28:16 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:28:16 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:29:26 - qBittorrent termination initiated
+(N) 2025-08-21T04:29:26 - Saving resume data completed.
+(N) 2025-08-21T04:29:28 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:29:28 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:29:31 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:29:31 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:29:31 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:29:31 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:29:31 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:29:31 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:29:31 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:29:31 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:29:31 - Anonymous mode: OFF
+(I) 2025-08-21T04:29:31 - Encryption support: ON
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:29:31 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:29:31 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:29:31 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:29:31 - Using built-in WebUI.
+(N) 2025-08-21T04:29:31 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:29:31 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:29:31 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:30:41 - qBittorrent termination initiated
+(N) 2025-08-21T04:30:41 - Saving resume data completed.
+(N) 2025-08-21T04:30:43 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:30:43 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:30:46 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:30:46 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:30:46 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:30:46 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:30:46 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:30:46 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:30:46 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:30:46 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:30:46 - Anonymous mode: OFF
+(I) 2025-08-21T04:30:46 - Encryption support: ON
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:30:46 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:30:46 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:30:46 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:30:46 - Using built-in WebUI.
+(N) 2025-08-21T04:30:46 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:30:46 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:30:47 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:31:56 - qBittorrent termination initiated
+(N) 2025-08-21T04:31:56 - Saving resume data completed.
+(N) 2025-08-21T04:31:58 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:31:58 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:32:02 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:32:02 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:32:02 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:32:02 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:32:02 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:32:02 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:32:02 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:32:02 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:32:02 - Anonymous mode: OFF
+(I) 2025-08-21T04:32:02 - Encryption support: ON
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:32:02 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:32:02 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:32:02 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:32:02 - Using built-in WebUI.
+(N) 2025-08-21T04:32:02 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:32:02 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:32:02 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:33:12 - qBittorrent termination initiated
+(N) 2025-08-21T04:33:12 - Saving resume data completed.
+(N) 2025-08-21T04:33:14 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:33:14 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:33:17 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:33:17 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:33:17 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:33:17 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:33:17 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:33:17 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:33:17 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:33:17 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:33:17 - Anonymous mode: OFF
+(I) 2025-08-21T04:33:17 - Encryption support: ON
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:33:17 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:33:17 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:33:17 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:33:17 - Using built-in WebUI.
+(N) 2025-08-21T04:33:17 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:33:17 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:33:17 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:46:37 - qBittorrent termination initiated
+(N) 2025-08-21T04:46:37 - Saving resume data completed.
+(N) 2025-08-21T04:46:39 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:46:39 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:46:42 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:46:42 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:46:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:46:42 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:46:42 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:46:42 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:46:42 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:46:42 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:46:42 - Anonymous mode: OFF
+(I) 2025-08-21T04:46:42 - Encryption support: ON
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:46:42 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:46:42 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:46:42 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:46:42 - Using built-in WebUI.
+(N) 2025-08-21T04:46:42 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:46:42 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:46:42 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:47:52 - qBittorrent termination initiated
+(N) 2025-08-21T04:47:52 - Saving resume data completed.
+(N) 2025-08-21T04:47:54 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:47:54 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:47:57 - qBittorrent v5.1.2 started. Process ID: 145
+(N) 2025-08-21T04:47:57 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:47:57 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:47:57 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:47:57 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:47:57 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:47:57 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:47:57 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:47:57 - Anonymous mode: OFF
+(I) 2025-08-21T04:47:57 - Encryption support: ON
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"
+(I) 2025-08-21T04:47:57 - Successfully listening on IP. IP: "::1". Port: "UTP/15545"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "[bitsearch.to] Saturday Night Live S39E13 Melissa McCarthy Imagine Dragons 1080p PCOK WEB-DL DDP 5 1 H 264-FLUX[TGx]"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.24.Josh.Shapiro.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "Stephen.Colbert.2025.07.28.Matt.Rogers.PROPER.720p.WEB.h264-JOAN"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "The Daily Show 2025 07 30 Alison Brie 1080p WEB h264 EDITH EZTV"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E14 1080p WEB H264-SuccessfulCrab"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "The Daily Show 2025 07 23 Samara Cyn 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E17 1080p WEB h264 GRACE EZTV"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "saturday night live s36e07 anne hathaway 720p hdtv x264 2hd"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "last.week.tonight.with.john.oliver.s12e18.1080p.web.h264-successfulcrab[EZTVx.to].mkv[eztvx.to]"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "The Daily Show 2025 07 24 Christopher McDonald 1080p WEB h264 EDITH"
+(N) 2025-08-21T04:47:57 - Restored torrent. Torrent: "Last Week Tonight with John Oliver S12E06 1080p WEB H264 SuccessfulCrab EZTV"
+(I) 2025-08-21T04:47:57 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Aug 1 03:25:11 2025.
+(N) 2025-08-21T04:47:57 - Using built-in WebUI.
+(N) 2025-08-21T04:47:57 - WebUI translation for selected locale (en) has been successfully loaded.
+(N) 2025-08-21T04:47:57 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-08-21T04:47:57 - Detected external IP. IP: "89.37.173.52"
+(N) 2025-08-21T04:49:07 - qBittorrent termination initiated
+(N) 2025-08-21T04:49:07 - Saving resume data completed.
+(N) 2025-08-21T04:49:09 - BitTorrent session successfully finished.
+(N) 2025-08-21T04:49:09 - qBittorrent is now ready to exit
+(N) 2025-08-21T04:49:13 - qBittorrent v5.1.2 started. Process ID: 144
+(N) 2025-08-21T04:49:13 - Using config directory: /config/qBittorrent
+(N) 2025-08-21T04:49:13 - Trying to listen on the following list of IP addresses: "0.0.0.0:15545,[::]:15545"
+(I) 2025-08-21T04:49:13 - Peer ID: "-qB5120-"
+(I) 2025-08-21T04:49:13 - HTTP User-Agent: "qBittorrent/5.1.2"
+(I) 2025-08-21T04:49:13 - Distributed Hash Table (DHT) support: ON
+(I) 2025-08-21T04:49:13 - Local Peer Discovery support: ON
+(I) 2025-08-21T04:49:13 - Peer Exchange (PeX) support: ON
+(I) 2025-08-21T04:49:13 - Anonymous mode: OFF
+(I) 2025-08-21T04:49:13 - Encryption support: ON
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "172.18.0.26". Port: "TCP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "172.18.0.26". Port: "UTP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "10.14.0.2". Port: "TCP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "10.14.0.2". Port: "UTP/15545"
+(I) 2025-08-21T04:49:13 - Successfully listening on IP. IP: "::1". Port: "TCP/15545"

@@ -1,0 +1,2 @@
+curl ifconfig.io
+exit

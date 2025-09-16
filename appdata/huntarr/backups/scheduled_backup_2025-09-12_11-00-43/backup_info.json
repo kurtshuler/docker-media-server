@@ -1,0 +1,14 @@
+{
+  "id": "scheduled_backup_2025-09-12_11-00-43",
+  "name": "scheduled_backup_2025-09-12_11-00-43",
+  "type": "scheduled",
+  "timestamp": "2025-09-12T11:00:43.710813",
+  "databases": [
+    {
+      "name": "huntarr",
+      "size": 241664,
+      "path": "/config/backups/scheduled_backup_2025-09-12_11-00-43/huntarr.db"
+    }
+  ],
+  "size": 241664
+}
