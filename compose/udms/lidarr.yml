@@ -6,7 +6,7 @@ services:
     container_name: lidarr
     security_opt:
       - no-new-privileges:true
-    restart: unless-stopped
+    restart: "no"
     profiles: ["media", "starr", "all"]
     networks:
       - default
