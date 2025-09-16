@@ -522,7 +522,7 @@
     # PBS-END-PLACEHOLDER
     # NUT-SERVER-START-PLACEHOLDER
     - UPS:
-        icon: raspberry-pi-light # mdi-power-plug-battery (text)
+        icon: raspberry-pi-light # mdi-power-plug-battery
         href: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
         description: Status of NUT UPS server running on Raspberry Pi 3B
         siteMonitor: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
