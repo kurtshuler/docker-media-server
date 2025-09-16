@@ -103,3 +103,4 @@ appdata/calibre-web-automated/
 appdata/traefik3/acme/
 
 docker-server.code-workspace
+secrets/
