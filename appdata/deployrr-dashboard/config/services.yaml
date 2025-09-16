@@ -67,15 +67,6 @@
         container: ddns-updater
         showStats: false
     # DDNS-UPDATER-END-PLACEHOLDER
-    # QBITTORRENT-START-PLACEHOLDER
-    - qBittorrent:
-        href: http://192.168.0.111:8081
-        description: http://192.168.0.111:8081
-        icon: qbittorrent
-        server: udms-Docker
-        container: qbittorrent
-        showStats: false
-    # QBITTORRENT-END-PLACEHOLDER
     # PORTAINER-START-PLACEHOLDER
     - Portainer:
         href: http://192.168.0.111:9000
@@ -173,6 +164,24 @@
         icon: shell
         showStats: false
     # SHELLINABOX-END-PLACEHOLDER
+    # QBITTORRENT-VPN-START-PLACEHOLDER
+    - qBittorrent VPN:
+        href: http://192.168.0.111:8081
+        description: http://192.168.0.111:8081
+        icon: sh-qbittorrent
+        server: udms-Docker
+        container: qbittorrent-vpn
+        showStats: false
+    # QBITTORRENT-VPN-END-PLACEHOLDER
+    # HUNTARR-START-PLACEHOLDER
+    - Huntarr:
+        href: http://192.168.0.111:9705
+        description: http://192.168.0.111:9705
+        icon: sh-huntarr
+        server: udms-Docker
+        container: huntarr
+        showStats: false
+    # HUNTARR-END-PLACEHOLDER
 # WEB-APPS-LOCAL-PLACEHOLDER
 
 - Apps (Remote):
@@ -231,15 +240,6 @@
         container: ddns-updater
         showStats: false
     # DDNS-UPDATER-END-PLACEHOLDER
-    # QBITTORRENT-START-PLACEHOLDER
-    - qbittorrent:
-        href: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        icon: qbittorrent
-        server: udms-Docker
-        container: qbittorrent
-        showStats: false
-    # QBITTORRENT-END-PLACEHOLDER
     # PORTAINER-START-PLACEHOLDER
     - portainer:
         href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
@@ -337,6 +337,24 @@
         icon: shell
         showStats: false
     # SHELLINABOX-END-PLACEHOLDER
+    # QBITTORRENT-VPN-START-PLACEHOLDER
+    - qBittorrent VPN:
+        href: https://qbittorrentvpn.kurtshuler.net
+        description: https://qbittorrentvpn.kurtshuler.net
+        icon: sh-qbittorrent
+        server: udms-Docker
+        container: qbittorrent-vpn
+        showStats: false
+    # QBITTORRENT-VPN-END-PLACEHOLDER
+    # HUNTARR-START-PLACEHOLDER
+    - Huntarr:
+        href: https://huntarr.kurtshuler.net
+        description: https://huntarr.kurtshuler.net
+        icon: sh-huntarr
+        server: udms-Docker
+        container: huntarr
+        showStats: false
+    # HUNTARR-END-PLACEHOLDER
 # WEB-APPS-REMOTE-PLACEHOLDER
 
 - Core & Non-Web Apps:
@@ -446,6 +464,14 @@
         container: docker-gc
         showStats: false
     # DOCKER-GC-END-PLACEHOLDER
+    # GLUETUN-START-PLACEHOLDER
+    - Gluetun:
+        description: VPN Client and Killswitch
+        icon: gluetun
+        server: udms-Docker
+        container: gluetun
+        showStats: false
+    # GLUETUN-END-PLACEHOLDER
 # CORE-APPS-PLACEHOLDER
 
 - System & Servers:
@@ -466,10 +492,10 @@
     # PVE10-START-PLACEHOLDER
     - pve10 Proxmox (iKoolCore R2) server:
         icon: proxmox-light.png
-        href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         # href: https://pve10."{{"DOMAINNAME_1"}}""
         description: On iKoolCore R2 server. Runs UDMS media server docker apps.
-        siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
           type: proxmox
@@ -495,9 +521,9 @@
     # PVE20-START-PLACEHOLDER
     - pve20 Proxmox (Beelink S12 Pro) server:
         icon: proxmox-light.png
-        href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         description: On Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
-        siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
           type: proxmox
@@ -509,7 +535,7 @@
     # PBS-START-PLACEHOLDER
     - Proxmox Backup Server (PBS):
         icon: proxmox.png
-        href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
         description: PBS running on Synology NAS
         siteMonitor: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
         statusStyle: "dot"

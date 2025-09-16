@@ -48,7 +48,7 @@ secrets:
   paperlessngx_mariadb_password:
     file: $DOCKERDIR/secrets/paperlessngx_mariadb_password
   # SECRETS-PLACEHOLDER-DO-NOT-DELETE
-                        
+                            
 include:
   ########################### SERVICES
   # HOSTNAME defined in .env file
@@ -62,7 +62,6 @@ include:
   - compose/$HOSTNAME/cloudflare-companion.yml
   - compose/$HOSTNAME/gluetun.yml
   - compose/$HOSTNAME/deunhealth.yml
-  - compose/$HOSTNAME/qbittorrent.yml
   - compose/$HOSTNAME/portainer.yml
   - compose/$HOSTNAME/glances.yml
   - compose/$HOSTNAME/dozzle.yml
@@ -89,4 +88,6 @@ include:
   - compose/$HOSTNAME/paperless-ai.yml
   - compose/$HOSTNAME/uptime-kuma.yml
   - compose/$HOSTNAME/docker-gc.yml
+  - compose/$HOSTNAME/qbittorrent-vpn.yml
+  - compose/$HOSTNAME/huntarr.yml
   # SERVICE-PLACEHOLDER-DO-NOT-DELETE
