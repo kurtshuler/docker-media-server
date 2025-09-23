@@ -469,7 +469,7 @@
         href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
         # href: https://pve10."{{"DOMAINNAME_1"}}""
         description: On iKoolCore R2 server. Runs UDMS media server docker apps.
-        siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
           type: proxmox
@@ -481,7 +481,7 @@
     # PVE10-PORTAINER-START-PLACEHOLDER
     - pve10 Docker container status Portainer:    
         icon: docker.png
-        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
+        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/:8006
         description: Status of pve10 UDMS Docker containers
         siteMonitor: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
         statusStyle: "dot"
@@ -497,7 +497,7 @@
         icon: proxmox-light.png
         href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
         description: On Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
-        siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
           type: proxmox
@@ -522,9 +522,10 @@
     # PBS-END-PLACEHOLDER
     # NUT-SERVER-START-PLACEHOLDER
     - UPS:
-        icon: raspberry-pi-light # mdi-power-plug-battery
+        icon: raspberry-pi-light # mdi-power-plug-battery 192.168.2.191
         href: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
         description: Status of NUT UPS server running on Raspberry Pi 3B
-        siteMonitor: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
+        # siteMonitor: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
+        siteMonitor: http://192.168.2.191/cgi-bin/nut/upsstats.cgi
         statusStyle: "dot"
     # NUT-SERVER-END-PLACEHOLDER  
