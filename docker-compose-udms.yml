@@ -62,7 +62,6 @@ include:
   - compose/$HOSTNAME/cloudflare-companion.yml
   - compose/$HOSTNAME/gluetun.yml
   - compose/$HOSTNAME/deunhealth.yml
-  - compose/$HOSTNAME/qbittorrent.yml
   - compose/$HOSTNAME/portainer.yml
   - compose/$HOSTNAME/glances.yml
   - compose/$HOSTNAME/dozzle.yml

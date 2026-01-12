@@ -11,7 +11,7 @@ services:
     profiles: ["core", "all"]
     networks:
       - default
-      # - t3_proxy
+      - t3_proxy
     cap_add:
       - NET_ADMIN
     devices:
