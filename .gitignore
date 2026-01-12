@@ -106,3 +106,4 @@ docker-server.code-workspace
 secrets/
 secrets/
 appdata/paperless-ai/chromadb/chroma.sqlite3
+appdata/paperless-ai/chromadb/chroma.sqlite3
