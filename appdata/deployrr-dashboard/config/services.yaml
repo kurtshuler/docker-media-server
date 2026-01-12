@@ -67,15 +67,6 @@
         container: ddns-updater
         showStats: false
     # DDNS-UPDATER-END-PLACEHOLDER
-    # QBITTORRENT-START-PLACEHOLDER
-    - qBittorrent:
-        href: http://192.168.0.111:8081
-        description: http://192.168.0.111:8081
-        icon: qbittorrent
-        server: udms-Docker
-        container: qbittorrent
-        showStats: false
-    # QBITTORRENT-END-PLACEHOLDER
     # PORTAINER-START-PLACEHOLDER
     - Portainer:
         href: http://192.168.0.111:9000
@@ -231,15 +222,6 @@
         container: ddns-updater
         showStats: false
     # DDNS-UPDATER-END-PLACEHOLDER
-    # QBITTORRENT-START-PLACEHOLDER
-    - qbittorrent:
-        href: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: https://qbittorrent.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        icon: qbittorrent
-        server: udms-Docker
-        container: qbittorrent
-        showStats: false
-    # QBITTORRENT-END-PLACEHOLDER
     # PORTAINER-START-PLACEHOLDER
     - portainer:
         href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
