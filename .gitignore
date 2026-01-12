@@ -111,3 +111,4 @@ appdata/paperless-ai/chromadb/chroma.sqlite3
 # Runtime/app state
 appdata/**
 *.sqlite3
+appdata/paperless-ai/chromadb/chroma.sqlite3
