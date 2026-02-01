@@ -1,39 +1,34 @@
-# Docker project generated files to ignore
-#  if you want to ignore files created by your editor/tools,
-#  please consider a global .gitignore https://help.github.com/articles/ignoring-files
-.vagrant*
-bin
-docker/docker
-.*.swp
-a.out
-*.orig
-build_src
-.flymake*
-.idea
-.DS_Store
-docs/_build
-docs/_static
-docs/_templates
-.gopath/
-.dotcloud
-*.test
-bundles/
-.hg/
-.git/
-vendor/pkg/
-pyenv
-Vagrantfile
-
-# keep control files tracked
+###############################################################################
+# Repo control files
+###############################################################################
 !.gitignore
 !.gitattributes
 !.github/**
 
-# Database files
-*.db*
+###############################################################################
+# OS and editor junk
+###############################################################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Compiled source #
-###################
+*.swp
+.*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+###############################################################################
+# Build / compiled / temp artifacts
+###############################################################################
+a.out
+*.orig
+*.test
+
 *.com
 *.class
 *.dll
@@ -41,10 +36,13 @@ Vagrantfile
 *.o
 *.so
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
+docs/_build/
+docs/_static/
+docs/_templates/
+
+###############################################################################
+# Archives and installers (usually not desirable in git)
+###############################################################################
 *.7z
 *.dmg
 *.gz
@@ -54,73 +52,35 @@ Vagrantfile
 *.tar
 *.zip
 
-# Logs and databases #
-######################
+###############################################################################
+# Logs and database-like files
+###############################################################################
 *.log
 *.sql
 *.sqlite
-
-# Backups / runtime artifacts
-appdata/**/backups/
-**/*.sqlite
-**/*.sqlite3
-# runtime artifacts
-appdata/**/chromadb/
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-appdata/authelia/
-appdata/ddns-updater
-appdata/ddns-updater/backups/
-appdata/docker-gc/
-appdata/gluetun/servers.json
-appdata/lidarr/Backups/
-.env
-appdata/lidarr/
-appdata/notifiarr/
-appdata/paperless-ngx/
-appdata/plex/
-appdata/portainer/
-appdata/prowlarr/
-appdata/qbittorrent/
-appdata/radarr/
-appdata/readarr/
-appdata/sonarr/
-appdata/redis/
-appdata/sabnzbd/
-appdata/mariadb/
-appdata/glances/
-appdata/calibre/
-appdata/calibre-web-automated/
-appdata/traefik3/acme/
-
-docker-server.code-workspace
-secrets/
-secrets/
-appdata/paperless-ai/chromadb/chroma.sqlite3
-appdata/paperless-ai/chromadb/chroma.sqlite3
-
-# Runtime/app state
-appdata/**
 *.sqlite3
-appdata/paperless-ai/chromadb/chroma.sqlite3
-appdata/paperless-ai/**
+*.db
+*.db*
 
-# Default: appdata is runtime state
+###############################################################################
+# Secrets and local env
+###############################################################################
+.env
+secrets/
+
+###############################################################################
+# Runtime state: deny-by-default for appdata
+#
+# Goal: Never commit runtime containers state, DBs, indexes, downloads, caches.
+# Allowlist only the subtrees you explicitly want tracked.
+###############################################################################
 appdata/**
 
-# Explicitly allow config we WANT tracked
-!appdata/deployrr-dashboard/**
-!appdata/traefik3/rules/**
-
-# Allow known safe assets
+# Allowlist: Deployrr dashboard config and assets (tracked)
+!appdata/deployrr-dashboard/
 !appdata/deployrr-dashboard/config/**
 !appdata/deployrr-dashboard/images/**
+
+# Allowlist: Traefik dynamic rules (tracked)
+!appdata/traefik3/
+!appdata/traefik3/rules/**
