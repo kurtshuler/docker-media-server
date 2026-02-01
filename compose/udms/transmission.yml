@@ -1,0 +1,45 @@
+services:
+  transmission:
+    image: lscr.io/linuxserver/transmission:latest
+    container_name: transmission
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+    profiles: ["apps", "downloads", "all"]
+
+    # Route all Transmission traffic through Gluetun
+    network_mode: "service:gluetun"
+    # IMPORTANT: no ports here when using service:gluetun
+
+    volumes:
+      - $DOCKERDIR/appdata/transmission:/config
+      # TRaSH-style single root mount for hardlinks + consistent paths with *arr apps
+      - $DOWNLOADSDIR:/data
+
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+
+      # Web UI auth via secrets (your existing pattern)
+      - FILE__USER=/run/secrets/transmission_user
+      - FILE__PASS=/run/secrets/transmission_pass
+
+      # Keep peer port consistent with what Gluetun publishes
+      - PEERPORT=51413
+
+    secrets:
+      - transmission_user
+      - transmission_pass
+
+    # Start after Gluetun is healthy (requires gluetun healthcheck in gluetun.yml)
+    depends_on:
+      gluetun:
+        condition: service_healthy
+
+    # Optional: restart container if it can't reach the internet via VPN
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- https://example.com >/dev/null 2>&1 || exit 1"]
+      interval: 1m
+      timeout: 10s
+      retries: 1

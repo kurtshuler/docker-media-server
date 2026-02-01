@@ -48,15 +48,6 @@
         container: lidarr
         showStats: false
     # LIDARR-END-PLACEHOLDER
-    # READARR-START-PLACEHOLDER
-    - Readarr:
-        href: http://192.168.0.111:8787
-        description: http://192.168.0.111:8787
-        icon: readarr
-        server: udms-Docker
-        container: readarr
-        showStats: false
-    # READARR-END-PLACEHOLDER
 - Support Apps (Local):
     # DDNS-UPDATER-START-PLACEHOLDER
     - DDNS Updater:
@@ -164,6 +155,15 @@
         icon: shell
         showStats: false
     # SHELLINABOX-END-PLACEHOLDER
+    # TRANSMISSION-START-PLACEHOLDER
+    - Transmission:
+        href: http://192.168.0.111:9091
+        description: http://192.168.0.111:9091
+        icon: sh-transmission
+        server: udms-Docker
+        container: transmission
+        showStats: false
+    # TRANSMISSION-END-PLACEHOLDER
 # WEB-APPS-LOCAL-PLACEHOLDER
 
 - Apps (Remote):
@@ -203,15 +203,6 @@
         container: lidarr
         showStats: false
     # LIDARR-END-PLACEHOLDER
-    # READARR-START-PLACEHOLDER
-    - readarr:
-        href: https://readarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: https://readarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        icon: readarr
-        server: udms-Docker
-        container: readarr
-        showStats: false
-    # READARR-END-PLACEHOLDER
 - Support Apps (Remote):
     # DDNS-UPDATER-START-PLACEHOLDER
     - ddns-updater:

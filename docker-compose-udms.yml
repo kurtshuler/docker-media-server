@@ -47,8 +47,12 @@ secrets:
     file: $DOCKERDIR/secrets/paperlessngx_mariadb_username
   paperlessngx_mariadb_password:
     file: $DOCKERDIR/secrets/paperlessngx_mariadb_password
+  transmission_user:
+    file: $DOCKERDIR/secrets/transmission_user
+  transmission_pass:
+    file: $DOCKERDIR/secrets/transmission_pass
   # SECRETS-PLACEHOLDER-DO-NOT-DELETE
-                        
+                            
 include:
   ########################### SERVICES
   # HOSTNAME defined in .env file
@@ -70,7 +74,6 @@ include:
   - compose/$HOSTNAME/sonarr.yml
   - compose/$HOSTNAME/radarr.yml
   - compose/$HOSTNAME/lidarr.yml
-  - compose/$HOSTNAME/readarr.yml
   - compose/$HOSTNAME/calibre-web-automated.yml
   - compose/$HOSTNAME/calibre-web-automated-book-downloader.yml
   - compose/$HOSTNAME/plex.yml
@@ -88,4 +91,5 @@ include:
   - compose/$HOSTNAME/paperless-ai.yml
   - compose/$HOSTNAME/uptime-kuma.yml
   - compose/$HOSTNAME/docker-gc.yml
+  - compose/$HOSTNAME/transmission.yml
   # SERVICE-PLACEHOLDER-DO-NOT-DELETE
