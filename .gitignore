@@ -112,3 +112,15 @@ appdata/paperless-ai/chromadb/chroma.sqlite3
 appdata/**
 *.sqlite3
 appdata/paperless-ai/chromadb/chroma.sqlite3
+appdata/paperless-ai/**
+
+# Default: appdata is runtime state
+appdata/**
+
+# Explicitly allow config we WANT tracked
+!appdata/deployrr-dashboard/**
+!appdata/traefik3/rules/**
+
+# Allow known safe assets
+!appdata/deployrr-dashboard/config/**
+!appdata/deployrr-dashboard/images/**
