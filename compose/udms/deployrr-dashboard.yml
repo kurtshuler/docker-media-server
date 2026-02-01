@@ -1,7 +1,7 @@
 services:
   # Deployarr Dashboard - Homepage based Dashboard for Deployarr
   deployrr-dashboard:
-    image: ghcr.io/gethomepage/homepage:latest
+    image: ghcr.io/gethomepage/homepage:${DEPLOYRRDASHBOARD_VERSION_PIN}
     container_name: deployrr-dashboard
     security_opt:
       - no-new-privileges:true
