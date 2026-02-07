@@ -2,3 +2,11 @@
 # url: https://proxmox.host.or.ip:8006
 # token: username@pam!Token ID
 # secret: secret
+pve10: # must match your actual Proxmox node name
+  url: 192.168.0.110:8006
+  username: api@pam!homepage # api_token_id
+  password: "{{HOMEPAGE_VAR_PROXMOX_PVE10_API_TOKEN}}" # variable defined in deployrr-dashboard.yml docker compose file
+pve20: # must match your actual Proxmox node name
+  url: 192.168.0.120:8006
+  username: api@pam!homepage # api_token_id
+  password: "{{HOMEPAGE_VAR_PROXMOX_PVE20_API_TOKEN}}" # variable defined in deployrr-dashboard.yml docker compose file

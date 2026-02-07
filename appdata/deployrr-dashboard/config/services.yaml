@@ -2,7 +2,7 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- Main Apps (Local):
+- Media Apps (Local):
     # DEPLOYRR-DASHBOARD-START-PLACEHOLDER
     # - Deployrr Dashboard:
     #     href: http://192.168.0.111:3050
@@ -48,6 +48,42 @@
         container: lidarr
         showStats: false
     # LIDARR-END-PLACEHOLDER
+    # PROWLARR-START-PLACEHOLDER
+    - Prowlarr:
+        href: http://192.168.0.111:9696
+        description: http://192.168.0.111:9696
+        icon: prowlarr
+        server: udms-Docker
+        container: prowlarr
+        showStats: false
+    # PROWLARR-END-PLACEHOLDER
+    # SABNZBD-START-PLACEHOLDER
+    - SABnzbd:
+        href: http://192.168.0.111:8083
+        description: http://192.168.0.111:8083
+        icon: sabnzbd
+        server: udms-Docker
+        container: sabnzbd
+        showStats: false
+    # SABNZBD-END-PLACEHOLDER
+    # TRANSMISSION-START-PLACEHOLDER
+    - Transmission:
+        href: http://192.168.0.111:9091
+        description: http://192.168.0.111:9091
+        icon: sh-transmission
+        server: udms-Docker
+        container: transmission
+        showStats: false
+    # TRANSMISSION-END-PLACEHOLDER
+    # CALIBRE-START-PLACEHOLDER
+    - Calibre:
+        href: http://192.168.0.111:8096
+        description: http://192.168.0.111:8096
+        icon: sh-calibre
+        server: udms-Docker
+        container: calibre-web-automated 
+        showStats: false
+    # CALIBRE-END-PLACEHOLDER
 - Support Apps (Local):
     # DDNS-UPDATER-START-PLACEHOLDER
     - DDNS Updater:
@@ -85,24 +121,7 @@
         container: dozzle
         showStats: false
     # DOZZLE-END-PLACEHOLDER
-    # PROWLARR-START-PLACEHOLDER
-    - Prowlarr:
-        href: http://192.168.0.111:9696
-        description: http://192.168.0.111:9696
-        icon: prowlarr
-        server: udms-Docker
-        container: prowlarr
-        showStats: false
-    # PROWLARR-END-PLACEHOLDER
-    # SABNZBD-START-PLACEHOLDER
-    - SABnzbd:
-        href: http://192.168.0.111:8083
-        description: http://192.168.0.111:8083
-        icon: sabnzbd
-        server: udms-Docker
-        container: sabnzbd
-        showStats: false
-    # SABNZBD-END-PLACEHOLDER
+
     # ADMINER-START-PLACEHOLDER
     - Adminer:
         href: http://192.168.0.111:8084
@@ -155,18 +174,10 @@
         icon: shell
         showStats: false
     # SHELLINABOX-END-PLACEHOLDER
-    # TRANSMISSION-START-PLACEHOLDER
-    - Transmission:
-        href: http://192.168.0.111:9091
-        description: http://192.168.0.111:9091
-        icon: sh-transmission
-        server: udms-Docker
-        container: transmission
-        showStats: false
-    # TRANSMISSION-END-PLACEHOLDER
+
 # WEB-APPS-LOCAL-PLACEHOLDER
 
-- Apps (Remote):
+- Media Apps (Remote):
     # PLEX-START-PLACEHOLDER
     - plex:
         href: https://plex.{{HOMEPAGE_VAR_DOMAINNAME_1}}
@@ -203,6 +214,33 @@
         container: lidarr
         showStats: false
     # LIDARR-END-PLACEHOLDER
+    # PROWLARR-START-PLACEHOLDER
+    - prowlarr:
+        href: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: prowlarr
+        server: udms-Docker
+        container: prowlarr
+        showStats: false
+    # PROWLARR-END-PLACEHOLDER
+    # SABNZBD-START-PLACEHOLDER
+    - sabnzbd:
+        href: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sabnzbd
+        server: udms-Docker
+        container: sabnzbd
+        showStats: false
+    # SABNZBD-END-PLACEHOLDER
+    # CALIBRE-START-PLACEHOLDER
+    - calibre:
+        href: https://calibre.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://calibre.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: calibre
+        server: udms-Docker
+        container: calibre-web-automated
+        showStats: false
+    # CALIBRE-END-PLACEHOLDER
 - Support Apps (Remote):
     # DDNS-UPDATER-START-PLACEHOLDER
     - ddns-updater:
@@ -240,24 +278,7 @@
         container: dozzle
         showStats: false
     # DOZZLE-END-PLACEHOLDER
-    # PROWLARR-START-PLACEHOLDER
-    - prowlarr:
-        href: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: https://prowlarr.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        icon: prowlarr
-        server: udms-Docker
-        container: prowlarr
-        showStats: false
-    # PROWLARR-END-PLACEHOLDER
-    # SABNZBD-START-PLACEHOLDER
-    - sabnzbd:
-        href: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: https://sabnzbd.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        icon: sabnzbd
-        server: udms-Docker
-        container: sabnzbd
-        showStats: false
-    # SABNZBD-END-PLACEHOLDER
+
     # ADMINER-START-PLACEHOLDER
     - adminer:
         href: https://adminer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
@@ -313,6 +334,20 @@
 # WEB-APPS-REMOTE-PLACEHOLDER
 
 - Core & Non-Web Apps:
+    # PVE10-PORTAINER-START-PLACEHOLDER
+    - pve10 Docker container status Portainer:    
+        icon: docker.png
+        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/:8006
+        description: Status of pve10 UDMS Docker containers
+        siteMonitor: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
+        statusStyle: "dot"
+        widget:
+          type: portainer
+          url: http://portainer:9000 # use Docker service name and port
+          env: 1
+          #key: ptr_xxxx # click on Portainer my account in the top right. Scroll down to the Access tokens section
+          key: "{{HOMEPAGE_VAR_PORTAINER_ACCESS_TOKEN}}"   # click on my account in the top right. Scroll down to the Access tokens section
+    # PVE10-PORTAINER-END-PLACEHOLDER 
     # SOCKET-PROXY-START-PLACEHOLDER
     - Socket-Proxy:
         description: Proxy for Docker Socket
@@ -437,11 +472,11 @@
               format: text
     # WAN-IP-END-PLACEHOLDER   
     # PVE10-START-PLACEHOLDER
-    - pve10 Proxmox (iKoolCore R2) server:
+    - pve10 Proxmox server 🥶:
         icon: proxmox-light.png
         href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
         # href: https://pve10."{{"DOMAINNAME_1"}}""
-        description: On iKoolCore R2 server. Runs UDMS media server docker apps.
+        description: 192.168.0.110:8006 → On iKoolCore R2 server. Runs UDMS media server docker apps.
         siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
@@ -451,25 +486,11 @@
           password: "{{HOMEPAGE_VAR_PROXMOX_PVE10_API_TOKEN}}" # variable defined in deployrr-dashboard.yml docker compose file
           # node: pve10 # optional
     # PVE10-END-PLACEHOLDER
-    # PVE10-PORTAINER-START-PLACEHOLDER
-    - pve10 Docker container status Portainer:    
-        icon: docker.png
-        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/:8006
-        description: Status of pve10 UDMS Docker containers
-        siteMonitor: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
-        statusStyle: "dot"
-        widget:
-          type: portainer
-          url: http://portainer:9000 # use Docker service name and port
-          env: 1
-          #key: ptr_xxxx # click on Portainer my account in the top right. Scroll down to the Access tokens section
-          key: "{{HOMEPAGE_VAR_PORTAINER_ACCESS_TOKEN}}"   # click on my account in the top right. Scroll down to the Access tokens section
-    # PVE10-PORTAINER-END-PLACEHOLDER 
     # PVE20-START-PLACEHOLDER
-    - pve20 Proxmox (Beelink S12 Pro) server:
+    - pve20 Proxmox server 🐝:
         icon: proxmox-light.png
         href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: On Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
+        description: 192.168.0.120:8006 → Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
         siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
         widget:
@@ -480,10 +501,10 @@
           # node: pve20 # optional
     # PVE20-END-PLACEHOLDER
     # PBS-START-PLACEHOLDER
-    - Proxmox Backup Server (PBS):
+    - pbs Proxmox Backup Server 💾:
         icon: proxmox.png
         href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}
-        description: PBS running on Synology NAS
+        description: 192.168.0.130:8007 → PBS running on Synology NAS
         siteMonitor: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
         statusStyle: "dot"
         widget:
@@ -494,11 +515,30 @@
           # node: pve20 # optional
     # PBS-END-PLACEHOLDER
     # NUT-SERVER-START-PLACEHOLDER
-    - UPS:
+    - NUT UPS ⚡️:
         icon: raspberry-pi-light # mdi-power-plug-battery 192.168.2.191
         href: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
-        description: Status of NUT UPS server running on Raspberry Pi 3B
+        description: 192.168.2.191/cgi-bin/nut/upsstats.cgi → Status of NUT UPS server running on Raspberry Pi 3B
         # siteMonitor: http://ups.{{HOMEPAGE_VAR_DOMAINNAME_1}}/cgi-bin/nut/upsstats.cgi
         siteMonitor: http://192.168.2.191/cgi-bin/nut/upsstats.cgi
         statusStyle: "dot"
-    # NUT-SERVER-END-PLACEHOLDER  
+    # NUT-SERVER-END-PLACEHOLDER
+    # HAOS-START-PLACEHOLDER
+    - Home Assistant:
+        icon: home-assistant.png
+        href: http://192.168.0.210:8123/
+        description: Home automation
+        siteMonitor: http://192.168.0.210:8123/
+        statusStyle: "dot"
+    - Synology NAS:
+        icon: synology-dsm.png
+        href: http://192.168.0.5:5000/
+        description: DSM
+        siteMonitor: http://192.168.0.5:5000/
+        statusStyle: "dot"
+    - Unifi Console:
+        href: https://unifi.ui.com/proxy/network
+        icon: unifi
+        description: DSM
+        siteMonitor: https://unifi.ui.com/proxy/network
+        statusStyle: "dot"

@@ -18,8 +18,13 @@ services:
     volumes:
     # This is where the books will be downloaded to, usually it would be 
     # the same as whatever you gave in "calibre-web-automated"
-      - $BOOKSDIR/ingest:/cwa-book-ingest
+      - $BOOKSDIR/ingest:/books
       - $DOCKERDIR/appdata/shelfmark:/config
     ports:
       # Change the first number to change the port you want to access the Web UI, not the second
       - 8097:8084
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8084/api/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3

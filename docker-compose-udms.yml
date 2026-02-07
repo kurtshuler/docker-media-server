@@ -75,7 +75,8 @@ include:
   - compose/$HOSTNAME/radarr.yml
   - compose/$HOSTNAME/lidarr.yml
   - compose/$HOSTNAME/calibre-web-automated.yml
-  - compose/$HOSTNAME/calibre-web-automated-book-downloader.yml
+  - compose/$HOSTNAME/shelfmark.yml
+  # - compose/$HOSTNAME/calibre-web-automated-book-downloader.yml
   - compose/$HOSTNAME/plex.yml
   - compose/$HOSTNAME/notifiarr.yml
   - compose/$HOSTNAME/adminer.yml

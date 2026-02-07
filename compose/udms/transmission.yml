@@ -14,7 +14,8 @@ services:
     volumes:
       - $DOCKERDIR/appdata/transmission:/config
       # TRaSH-style single root mount for hardlinks + consistent paths with *arr apps
-      - $DOWNLOADSDIR:/data
+      - ${DOWNLOADSDIR}:/data
+      - ${DOWNLOADSDIR}/torrents/.watch:/watch
 
     environment:
       - PUID=$PUID
