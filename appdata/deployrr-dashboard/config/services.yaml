@@ -337,7 +337,7 @@
     # PVE10-PORTAINER-START-PLACEHOLDER
     - pve10 Docker container status Portainer:    
         icon: docker.png
-        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/:8006
+        href: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}
         description: Status of pve10 UDMS Docker containers
         siteMonitor: https://portainer.{{HOMEPAGE_VAR_DOMAINNAME_1}}/
         statusStyle: "dot"
