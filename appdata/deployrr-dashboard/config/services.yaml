@@ -474,7 +474,7 @@
     # PVE10-START-PLACEHOLDER
     - pve10 Proxmox server 🥶:
         icon: proxmox-light.png
-        href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         # href: https://pve10."{{"DOMAINNAME_1"}}""
         description: 192.168.0.110:8006 → On iKoolCore R2 server. Runs UDMS media server docker apps.
         siteMonitor: https://pve10.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
@@ -489,7 +489,7 @@
     # PVE20-START-PLACEHOLDER
     - pve20 Proxmox server 🐝:
         icon: proxmox-light.png
-        href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         description: 192.168.0.120:8006 → Beelink Mini S12 Pro server. Runs Home Assistant OS (HAOS) within Proxmox VM.
         siteMonitor: https://pve20.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8006
         statusStyle: "dot"
@@ -503,7 +503,7 @@
     # PBS-START-PLACEHOLDER
     - pbs Proxmox Backup Server 💾:
         icon: proxmox.png
-        href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        href: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
         description: 192.168.0.130:8007 → PBS running on Synology NAS
         siteMonitor: https://pbs.{{HOMEPAGE_VAR_DOMAINNAME_1}}:8007
         statusStyle: "dot"
