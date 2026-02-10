@@ -84,6 +84,15 @@
         container: calibre-web-automated 
         showStats: false
     # CALIBRE-END-PLACEHOLDER
+    # CALIBRE-START-PLACEHOLDER
+    - Shelfmark:
+        href: http://192.168.0.111:8097
+        description: http://192.168.0.111:8097
+        icon: sh-shelfmark
+        server: udms-Docker
+        container: shelfmark
+        showStats: false
+    # CALIBRE-END-PLACEHOLDER
 - Support Apps (Local):
     # DDNS-UPDATER-START-PLACEHOLDER
     - DDNS Updater:
@@ -241,6 +250,15 @@
         container: calibre-web-automated
         showStats: false
     # CALIBRE-END-PLACEHOLDER
+    # SHELFMARK-START-PLACEHOLDER
+    - shelfmark:
+        href: https://shelfmark.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        description: https://shelfmark.{{HOMEPAGE_VAR_DOMAINNAME_1}}
+        icon: sh-shelfmark
+        server: udms-Docker
+        container: shelfmark
+        showStats: false
+    # SHELFMARK-END-PLACEHOLDER
 - Support Apps (Remote):
     # DDNS-UPDATER-START-PLACEHOLDER
     - ddns-updater:
