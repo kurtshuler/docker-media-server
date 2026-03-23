@@ -50,6 +50,9 @@ services:
       PAPERLESS_ADMIN_USER_FILE: /run/secrets/paperlessngx_admin_username
       PAPERLESS_ADMIN_PASSWORD_FILE: /run/secrets/paperlessngx_admin_password
       PAPERLESS_CONSUMER_POLLING: 60
+      PAPERLESS_CONSUMER_ENABLE_BARCODES: true # enable search for barcodes
+      PAPERLESS_CONSUMER_ENABLE_ASN_BARCODE: true # enable setting ASN by ASN barcodes
+      PAPERLESS_CONSUMER_BARCODE_SCANNER: ZXING # switch from pyzbar to zxing for better recognition
     secrets:
       - paperlessngx_mariadb_username
       - paperlessngx_mariadb_password
